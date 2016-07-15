@@ -1,0 +1,32 @@
+.jumbotron {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .jumbotron .sheet {
+    background-color: #fff;
+    margin: -100px 120px 0;
+    padding: 100px; }
+  .jumbotron h1 {
+    font-size: 40px;
+    font-weight: bold; }
+    .jumbotron h1 strong {
+      color: #3b5a76; }
+  .jumbotron div.center-img {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+header {
+  text-align: center;
+  margin: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc; }
+
+footer {
+  background-color: #3b5a76; }
+  footer .container {
+    background-color: #3b5a76; }
+  footer p {
+    margin: 0;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 20px; }
