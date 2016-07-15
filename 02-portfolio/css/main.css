@@ -4,9 +4,9 @@
   .jumbotron .sheet {
     background-color: #fff;
     margin: -100px 120px 0;
-    padding: 100px; }
+    padding: 100px 70px; }
   .jumbotron h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold; }
     .jumbotron h1 strong {
       color: #3b5a76; }
@@ -30,3 +30,26 @@ footer {
     padding: 20px 0;
     color: #fff;
     font-size: 20px; }
+
+h2 {
+  color: #3b5a76;
+  font-weight: bold;
+  font-size: 28px; }
+
+ul {
+  list-style: none; }
+  ul a {
+    color: #333; }
+  ul a:hover {
+    color: #3b5a76;
+    text-decoration: none;
+    font-size: 20px; }
+
+div.row.bg-gray {
+  background: #ededed;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 10px; }
+  div.row.bg-gray p {
+    font-size: 16px;
+    margin: 5px; }

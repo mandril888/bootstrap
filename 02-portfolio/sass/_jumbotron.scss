@@ -1,21 +1,25 @@
 .jumbotron {
+
 	margin-bottom: 0;
 	padding-bottom: 0;
 
 	.sheet{
-		
+
 		background-color: #fff;
 		margin: -100px 120px 0;
-		padding: 100px;
+		padding: 100px 70px;
 	}
 
 	h1 {
 
 		font: {
-			size: 40px;
+
+			size: 30px;
 			weight: bold; 
 		}
+
 		strong {
+			
 			color: $blue-color;
 		}
 	}
