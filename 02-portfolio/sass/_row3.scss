@@ -1,0 +1,55 @@
+.img-work {
+
+	img {
+		margin: 5px 10px 10px 0;
+		width: 100%;
+	}
+}
+
+.services {
+
+	div {
+
+		&.green-container {
+
+			font-size: 16px;
+			color: $blue-color-text;
+			border: 1px solid $blue-color-text;
+			border-radius: 5px;
+			margin-bottom: 10px;
+			background: linear-gradient(#d7ecf7, #bbdff1);
+
+			p {
+
+				font-size: 18px;
+				padding-bottom: 0;
+				margin: 10px;
+
+				i {
+					margin-right: 4px;
+				}
+			}
+		}
+
+		&.blue-container {
+
+			font-size: 16px;
+			color: $green-color-text;
+			border: 1px solid $green-color-text;
+			border-radius: 5px;
+			margin-bottom: 10px;
+			background: linear-gradient(#def0d7, #c9e5bd);
+
+			p {
+
+				font-size: 18px;
+				padding-bottom: 0;
+				margin: 10px;
+
+				i {
+					margin-right: 4px;
+				}
+			}
+		}
+	}
+}

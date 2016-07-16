@@ -4,23 +4,22 @@ header {
   padding-bottom: 15px;
   border-bottom: 1px solid #ccc; }
 
-h2 {
-  color: #3b5a76;
-  font-weight: bold;
-  font-size: 25px; }
-
 .jumbotron {
   margin-bottom: 0;
   padding-bottom: 0; }
   .jumbotron .sheet {
     background-color: #fff;
     margin: -100px 140px 0;
-    padding: 100px 50px; }
+    padding: 100px 50px 40px; }
   .jumbotron h1 {
     font-size: 26px;
     font-weight: bold; }
     .jumbotron h1 strong {
       color: #3b5a76; }
+  .jumbotron h2 {
+    color: #3b5a76;
+    font-weight: bold;
+    font-size: 25px; }
   .jumbotron div.center-img {
     display: flex;
     align-items: center;
@@ -28,6 +27,11 @@ h2 {
   .jumbotron div.sheet {
     border: 1px solid #ccc; }
 
+@media screen and (max-width: 1100px) {
+  .jumbotron h1 {
+    font-size: 20px; }
+  .jumbotron h2 {
+    font-size: 20px; } }
 ul {
   list-style: none;
   padding-left: 0;
@@ -87,6 +91,37 @@ div.row .bg-blue2 {
     font-size: 14px;
     text-align: center;
     margin-bottom: 0; }
+
+.img-work img {
+  margin: 5px 10px 10px 0;
+  width: 100%; }
+
+.services div.green-container {
+  font-size: 16px;
+  color: #31708f;
+  border: 1px solid #31708f;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: linear-gradient(#d7ecf7, #bbdff1); }
+  .services div.green-container p {
+    font-size: 18px;
+    padding-bottom: 0;
+    margin: 10px; }
+    .services div.green-container p i {
+      margin-right: 4px; }
+.services div.blue-container {
+  font-size: 16px;
+  color: #3c763d;
+  border: 1px solid #3c763d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: linear-gradient(#def0d7, #c9e5bd); }
+  .services div.blue-container p {
+    font-size: 18px;
+    padding-bottom: 0;
+    margin: 10px; }
+    .services div.blue-container p i {
+      margin-right: 4px; }
 
 footer {
   background-color: #3b5a76; }

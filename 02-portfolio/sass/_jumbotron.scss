@@ -7,7 +7,7 @@
 
 		background-color: #fff;
 		margin: -100px 140px 0;
-		padding: 100px 50px;
+		padding: 100px 50px 40px;
 	}
 
 	h1 {
@@ -24,6 +24,17 @@
 		}
 	}
 
+	h2 {
+
+		color: $blue-color;
+
+		font: {
+
+			weight: bold;
+			size: 25px;
+		}
+	}
+
 	div {
 
 		&.center-img {
@@ -36,6 +47,23 @@
 		&.sheet {
 
 			border: 1px solid #ccc;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1100px) {
+	
+.jumbotron {
+
+		h1 {
+
+			font-size: 20px;
+		}
+
+		h2 {
+
+			font-size: 20px;
 		}
 	}
 }
