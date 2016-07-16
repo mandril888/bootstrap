@@ -6,3 +6,13 @@ header {
 	border-bottom: 1px solid #ccc;
 }
 
+h2 {
+
+	color: $blue-color;
+
+	font: {
+
+		weight: bold;
+		size: 25px;
+	}
+}

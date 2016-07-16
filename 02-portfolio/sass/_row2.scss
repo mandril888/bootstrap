@@ -1,0 +1,69 @@
+
+div {
+
+	&.row.bg-gray {
+
+		background: $gray-color;
+		margin: 15px 0 0;
+
+		p {
+
+			font-size: 16px;
+			margin: 5px;
+		}
+	}
+
+	&.row.bg-blue {
+		
+		color: #fff;
+		background: $blue-skills-color;
+		border-radius: 5px;
+		margin-bottom: 10px;
+
+		p {
+
+			font-size: 14px;
+			text-align: center;
+			margin-bottom: 0;
+		}
+	}
+
+	&.row {
+
+		div.no-pading {
+			padding: 0;
+		}
+
+		.bg-gray2 {
+		
+			color: #fff;
+			background: $gray-color;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			margin-bottom: 10px;
+
+			p {
+
+				font-size: 14px;
+				text-align: center;
+				margin-bottom: 0;
+			}
+		}
+
+		.bg-blue2 {
+			
+			color: #fff;
+			background: $blue-skills-color;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			margin-bottom: 10px;
+
+			p {
+
+				font-size: 14px;
+				text-align: center;
+				margin-bottom: 0;
+			}
+		}
+	}
+}

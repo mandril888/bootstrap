@@ -1,0 +1,43 @@
+
+ul {
+
+	list-style: none;
+	padding-left: 0;
+	font-size: 18px;
+
+
+	li {
+
+		line-height: 40px;
+	}
+
+	i {
+
+		font-size: 20px;
+		padding-right: 12px;
+		color: #000;
+	}
+
+	img {
+
+		padding-right: 10px;
+	}
+
+	a {
+
+		color: $black-color-text;
+	}
+
+	a:hover {
+
+		color: $blue-color;
+		text-decoration: none;
+		font-size: 20px;
+	}
+
+	a:visited {
+
+		color: $blue-color;
+		text-decoration: none;
+	}
+}
