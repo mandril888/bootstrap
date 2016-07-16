@@ -12,7 +12,6 @@
 
 		&.green-container {
 
-			font-size: 16px;
 			color: $blue-color-text;
 			border: 1px solid $blue-color-text;
 			border-radius: 5px;
@@ -33,7 +32,6 @@
 
 		&.blue-container {
 
-			font-size: 16px;
 			color: $green-color-text;
 			border: 1px solid $green-color-text;
 			border-radius: 5px;
@@ -50,6 +48,42 @@
 					margin-right: 4px;
 				}
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 1100px) {
+
+	.services {
+
+		div {
+
+			&.green-container {
+
+				p {
+					
+					font-size: 16px;
+				}
+			}
+
+			&.blue-container {
+
+				p {
+
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	.img-work {
+
+		img {
+
+			width: 220px;
 		}
 	}
 }

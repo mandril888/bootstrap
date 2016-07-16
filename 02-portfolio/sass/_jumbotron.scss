@@ -54,7 +54,9 @@
 
 @media screen and (max-width: 1100px) {
 	
-.jumbotron {
+	.jumbotron {
+
+		.sheet
 
 		h1 {
 
@@ -64,6 +66,18 @@
 		h2 {
 
 			font-size: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	.jumbotron {
+
+		.sheet {
+
+			margin: -100px 40px 0;
+			padding: 100px 30px 40px;
 		}
 	}
 }

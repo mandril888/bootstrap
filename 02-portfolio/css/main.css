@@ -28,10 +28,15 @@ header {
     border: 1px solid #ccc; }
 
 @media screen and (max-width: 1100px) {
-  .jumbotron h1 {
+  .jumbotron .sheet
+  h1 {
     font-size: 20px; }
   .jumbotron h2 {
     font-size: 20px; } }
+@media screen and (max-width: 800px) {
+  .jumbotron .sheet {
+    margin: -100px 40px 0;
+    padding: 100px 30px 40px; } }
 ul {
   list-style: none;
   padding-left: 0;
@@ -54,6 +59,9 @@ ul {
     color: #3b5a76;
     text-decoration: none; }
 
+@media screen and (max-width: 1100px) {
+  .jumbotron p {
+    font-size: 18px; } }
 div.row.bg-gray {
   background: #ededed;
   margin: 15px 0 0; }
@@ -97,7 +105,6 @@ div.row .bg-blue2 {
   width: 100%; }
 
 .services div.green-container {
-  font-size: 16px;
   color: #31708f;
   border: 1px solid #31708f;
   border-radius: 5px;
@@ -110,7 +117,6 @@ div.row .bg-blue2 {
     .services div.green-container p i {
       margin-right: 4px; }
 .services div.blue-container {
-  font-size: 16px;
   color: #3c763d;
   border: 1px solid #3c763d;
   border-radius: 5px;
@@ -123,12 +129,28 @@ div.row .bg-blue2 {
     .services div.blue-container p i {
       margin-right: 4px; }
 
+@media screen and (max-width: 1100px) {
+  .services div.green-container p {
+    font-size: 16px; }
+  .services div.blue-container p {
+    font-size: 16px; } }
+@media screen and (max-width: 991px) {
+  .img-work img {
+    width: 220px; } }
 footer {
   background-color: #3b5a76; }
   footer .container {
     background-color: #3b5a76; }
   footer p {
-    padding: 20px 60px;
+    padding: 20px 10%;
     margin: 0;
     color: #fff;
     font-size: 20px; }
+
+@media screen and (max-width: 1000px) {
+  footer .container p {
+    padding: 20px 20px; } }
+@media screen and (max-width: 800px) {
+  footer .container p {
+    font-size: 15px;
+    text-align: center; } }
